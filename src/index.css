@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100%;
+}
+html, body, #root {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+body {
+  font-family: 'Teko', 'sans-serif';
+}
